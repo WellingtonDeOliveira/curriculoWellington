@@ -753,27 +753,27 @@
                         <div class="contact_inputs grid">
                             <div class="contact_content">
                                 <label for="name" class="contact_label">Nome</label>
-                                <input type="text" id="name" class="contact_input" required>
+                                <input type="text" id="name" name="nome" class="contact_input" required>
                             </div>
 
                             <div class="contact_content">
                                 <label for="email" class="contact_label">Email</label>
-                                <input type="email" id="email" class="contact_input" required>
+                                <input type="email" id="email" name="email" class="contact_input" required>
                             </div>
                         </div>
 
                         <div class="contact_content">
                             <label for="project-contact" class="contact_label">Projeto</label>
-                            <input type="text" id="project-contact" class="contact_input" required>
+                            <input type="text" id="project-contact" name="projeto" class="contact_input" required>
                         </div>
 
                         <div class="contact_content">
                             <label for="message-contact" class="contact_label">Mensagem</label>
-                            <textarea name="" cols="0" rows="7" id="message-contact" class="contact_input" required></textarea>
+                            <textarea name="mensagem" cols="0" rows="7" id="message-contact" class="contact_input" required></textarea>
                         </div>
                         
                         <div>
-                            <a href="#" class="button button--flex">Mandar Mensagem</a>
+                            <a type="submit" class="button button--flex">Mandar Mensagem</a>
                             <i class="uil uil-message button_icon"></i>
                         </div>
                     </form>
