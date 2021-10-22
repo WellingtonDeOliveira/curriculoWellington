@@ -831,7 +831,37 @@ img{
 .footer_social{
     color: #FFF;
 }
-
+/*========== THANKS ========== */
+.thanks_container{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 200px;
+}
+.thanks_title{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-0-5);
+}
+.thanks_subtitle{
+    font-size: var(--small-font-size);
+    padding: 1rem;
+    margin-bottom: var(--mb-0-25);
+}
+.thanks_content{
+    width: 100%;
+    background-color: var(--first-color);
+    border-radius: 20px;
+    padding: var(--mb-1-5);
+}
+.thanks_voltar{
+    cursor: pointer;
+    font-size: var(--font-medium);
+    border-radius: 5px;
+    padding: .75rem;
+    font-weight: var(--font-semi-bold);
+}
 /*========== SCROLL UP ==========*/
 .scrollup{
     position: fixed;
