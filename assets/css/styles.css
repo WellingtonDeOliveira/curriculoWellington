@@ -478,14 +478,14 @@ img{
 .skills_flutter{
     width: 45%;
 }
-.skills_spring{
-    width: 30%;
-}
 .skills_studio{
     width: 30%;
 }
 .skills_angular{
     width: 40%;
+}
+.skills_spring{
+    width: 30%;
 }
 .skills_close .skills_list{
     height: 0;
