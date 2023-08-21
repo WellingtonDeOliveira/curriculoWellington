@@ -489,6 +489,9 @@ img{
 .skills_photoshop{
     width: 20%;
 }
+.skills_swift{
+    width: 70%;
+}
 .skills_flutter{
     width: 45%;
 }
@@ -499,10 +502,10 @@ img{
     width: 70%;
 }
 .skills_angular{
-    width: 40%;
+    width: 60%;
 }
 .skills_spring{
-    width: 50%;
+    width: 70%;
 }
 .skills_react_native{
     width: 50%;
